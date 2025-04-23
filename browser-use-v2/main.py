@@ -23,9 +23,9 @@ async def main():
     # )
     agent = Agent(
         task="""
-あなたは価格監視のエージェントです。
-与えられたURLから最新商品の詳細ページに遷移して後述する項目を取得してください。
-- cando netshop url: https://netshop.cando-web.co.jp/view/category/all_items
+あなたはネットショップの商品情報を取得するエージェントです。
+下記URLから最新商品の詳細ページに遷移して後述する項目を取得してください。
+URL: https://netshop.cando-web.co.jp/view/category/all_items
 
 詳細ページから取得する項目
 - 価格(price)
@@ -37,6 +37,7 @@ async def main():
 その他の仕様
 - 上記の項目が見つからない場合は-を返してください。
 - 取得したデータはcsv形式で出力してください。
+- 最新商品は画面左上の商品です。
 """,
         llm=model,
         browser=browser,
