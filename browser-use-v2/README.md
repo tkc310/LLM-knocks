@@ -15,12 +15,6 @@ $ docker compose build --no-cache
 $ docker compose up -d
 $ docker compose exec app sh
 
-$ apt-get install nodejs
-$ apt-get install npm
-$ npm i
-$ npx playwright install-deps
-
-$ poetry install
 $ poetry run python main.py
 ```
 
