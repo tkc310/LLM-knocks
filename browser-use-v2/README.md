@@ -6,14 +6,21 @@ alpineイメージもnvidia関連パッケージがサポートしていない�
 ## Usage
 
 ```
+$ cp example.env .env
+# => .envにAPI_KEYを入力
+
 $ docker compose build
 # Dockerfile更新時
 $ docker compose build --no-cache
 $ docker compose up -d
 $ docker compose exec app sh
-$ poetry install
+
+$ apt-get install nodejs
+$ apt-get install npm
 $ npm i
-$ npx playwright install
+$ npx playwright install-deps
+
+$ poetry install
 $ poetry run python main.py
 ```
 
