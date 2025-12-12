@@ -1,4 +1,4 @@
 hoge  
-foo
-piyo
-
+foo  
+piyo  
+b
