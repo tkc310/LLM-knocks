@@ -1,2 +1,3 @@
-hoge
-bar
+hoge  
+foo
+
