@@ -6,3 +6,5 @@ https://metaversesouken.com/ai/ai/tu-course/
 https://jobs.forkwell.com/events/jmtil9e0o?argument=249xHStF&dmai=a690c395a0eb8d
 - mcp-google-search  
 https://github.com/karaage0703/mcp-web-search
+- マルチエージェントでレビューするmcp  
+https://github.com/karaage0703/claude-coding-assistant
